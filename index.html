@@ -1,57 +1,328 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-            <style>.lw { font-size: 60px; }</style>
-        <style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.mb-1{margin-bottom:0.25rem}.mb-2{margin-bottom:0.5rem}.mb-8{margin-bottom:2rem}.ml-0\.5{margin-left:0.125rem}.mt-20{margin-top:5rem}.mt-8{margin-top:2rem}.block{display:block}.flex{display:flex}.h-0{height:0px}.h-40{height:10rem}.h-6{height:1.5rem}.w-0{width:0px}.w-6{width:1.5rem}.w-72{width:18rem}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.rounded-full{border-radius:9999px}.rounded-md{border-radius:0.375rem}.rounded-sm{border-radius:0.125rem}.border-b-4{border-bottom-width:4px}.border-t-4{border-top-width:4px}.border-transparent{border-color:transparent}.border-l-orange-500{--tw-border-opacity:1;border-left-color:rgb(249 115 22 / var(--tw-border-opacity, 1))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-4{padding-top:1rem;padding-bottom:1rem}.text-2xl{font-size:1.5rem;line-height:2rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.text-black{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.hover\:text-gray-600:hover{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.hover\:opacity-90:hover{opacity:0.9}</style></head>
-        <body class="bg-white text-black">
-            
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivar Jons - Game Audio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* General styling */
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+            line-height: 1.6;
+        }
 
+        /* Header/Navigation */
+        .navbar {
+            display: flex;
+            justify-content: flex-end; /* Align to the right */
+            padding: 20px 50px; /* Top/bottom padding and side padding */
+            width: 100%;
+            box-sizing: border-box;
+        }
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ivar Jons - Portfolio</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+        .navbar nav {
+            display: flex;
+            align-items: center;
+            gap: 30px; /* Space between links and button */
+        }
 
+        .nav-link {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            font-weight: 500;
+        }
 
-  <!-- Navbar -->
-  <nav class="flex items-center justify-between px-8 py-4">
-    <!-- Site name -->
-    <div class="text-xs font-medium">Site name</div>
+        .button {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #333;
+        }
 
-    <!-- Links -->
-    <div class="flex items-center space-x-4">
-      <a href="#" class="text-xs hover:text-gray-600">Page</a>
-      <a href="#" class="text-xs hover:text-gray-600">Page</a>
-      <a href="#" class="text-xs hover:text-gray-600">Page</a>
-      <button class="bg-black text-white text-xs px-2 py-1 rounded-md hover:bg-gray-800">
-        Button
-      </button>
-    </div>
-  </nav>
+        /* Hero Section (Main Title) */
+        .hero-section {
+            text-align: center;
+            padding-top: 50px; /* Adjust as needed */
+            padding-bottom: 30px;
+        }
 
-  <!-- Main section -->
-  <main class="px-8 mt-8">
-    <!-- Title -->
-    <h1 class="text-2xl font-bold mb-1">Ivar Jons</h1>
-    <p class="text-sm text-gray-600 mb-8">Game Audio</p>
+        .main-title {
+            font-size: 60px; /* Large font size */
+            font-weight: 700;
+            margin: 0;
+            color: #000;
+        }
 
-    <!-- Video placeholder (clickable link) -->
-    <a href="https://youtu.be/8APeij8gE7I" target="_blank" rel="noopener noreferrer" class="block w-72 h-40 bg-black flex flex-col items-center justify-center rounded-sm hover:opacity-90 transition">
-      <p class="text-white text-sm mb-2 font-semibold">
-        Ivar Jons - Sound Designer
-      </p>
-      <div class="w-6 h-6 bg-white rounded-full flex items-center justify-center">
-        <div class="w-0 h-0 border-t-4 border-b-4 border-l-6 border-transparent border-l-orange-500 ml-0.5"></div>
-      </div>
-    </a>
+        .subtitle {
+            font-size: 20px;
+            color: #666;
+            margin-top: 10px;
+        }
 
-    <!-- Section heading -->
-    <h2 class="text-lg font-semibold mt-20">Section heading</h2>
-  </main>
+        /* Separator lines */
+        .separator {
+            border: none;
+            border-top: 1px solid #e0e0e0;
+            width: 80%; /* Adjust width as per image */
+            margin: 40px auto; /* Centered with vertical spacing */
+        }
 
+        /* Section Containers */
+        .section-container {
+            max-width: 1000px; /* Max width for content, adjust as needed */
+            margin: 60px auto; /* Vertical spacing and centering */
+            padding: 0 20px; /* Horizontal padding */
+        }
 
+        .section-title {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 30px;
+            color: #000;
+            text-align: left; /* Section titles are left-aligned */
+        }
 
-            <script>// Write JavaScript here</script>
-        
-    
+        /* Responsive Video Container (Aspect Ratio Box) */
+        .video-responsive {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio (height / width * 100%) */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background-color: #000; /* Fallback background */
+            border-radius: 5px; /* Slight rounded corners */
+        }
+
+        .video-responsive iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        /* Main Showreel Video specific styling */
+        .main-video-wrapper {
+            width: 70%; /* Adjust width as seen in image */
+            max-width: 800px; /* Max width for large screen */
+            margin: 0 auto; /* Center the video */
+        }
+
+        /* Video Grids */
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns for Sound Design */
+            gap: 30px; /* Space between video items */
+        }
+
+        .video-grid.two-column {
+            grid-template-columns: repeat(2, 1fr); /* 2 columns for Technical Sound Design */
+            max-width: 680px; /* Adjust width to fit two items cleanly, if desired */
+            margin: 0 auto; /* Center the two-column grid */
+        }
+
+        .video-item {
+            text-align: center;
+            display: flex; /* Use flexbox to stack label and video */
+            flex-direction: column;
+        }
+
+        .video-item .video-label {
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 15px;
+            color: #000;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 1024px) {
+            .main-title {
+                font-size: 50px;
+            }
+            .main-video-wrapper {
+                width: 80%;
+            }
+            .video-grid {
+                grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+                gap: 20px;
+            }
+            .video-grid.two-column {
+                grid-template-columns: 1fr; /* 1 column on medium screens for the 2-column grid */
+                max-width: 400px; /* Adjust max-width */
+            }
+        }
+
+        @media (max-width: 768px) {
+            .navbar {
+                padding: 15px 20px;
+                justify-content: center; /* Center nav items on small screens */
+            }
+            .navbar nav {
+                gap: 15px;
+            }
+            .main-title {
+                font-size: 40px;
+            }
+            .subtitle {
+                font-size: 18px;
+            }
+            .separator {
+                width: 90%;
+                margin: 30px auto;
+            }
+            .section-container {
+                margin: 40px auto;
+                padding: 0 15px;
+            }
+            .section-title {
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+            .main-video-wrapper {
+                width: 90%;
+            }
+            .video-grid {
+                grid-template-columns: 1fr; /* Single column on small screens */
+                gap: 25px;
+            }
+            .video-grid.two-column {
+                grid-template-columns: 1fr; /* Already 1 column for this breakpoint, but keeping for clarity */
+                max-width: 100%;
+            }
+            .video-item .video-label {
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .navbar nav {
+                flex-wrap: wrap; /* Allow nav items to wrap */
+                justify-content: center;
+                gap: 10px;
+            }
+            .nav-link, .button {
+                font-size: 14px;
+                padding: 8px 15px;
+            }
+            .main-title {
+                font-size: 32px;
+            }
+            .subtitle {
+                font-size: 16px;
+            }
+            .section-title {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <a href="#" class="nav-link">Page</a>
+            <a href="#" class="nav-link">Page</a>
+            <a href="#" class="nav-link">Page</a>
+            <a href="#" class="button">Button</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <h1 class="main-title">Ivar Jons</h1>
+            <p class="subtitle">Game Audio</p>
+        </section>
+
+        <hr class="separator">
+
+        <section class="section-container showreel">
+            <h2 class="section-title">Sound Design Showreel</h2>
+            <div class="main-video-wrapper">
+                <div class="video-responsive">
+                    <!-- Placeholder YouTube video. Replace "dQw4w9WgXcQ" with your actual video ID. -->
+                    <iframe src="https://youtu.be/8APeij8gE7I" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <hr class="separator">
+
+        <section class="section-container sound-design">
+            <h2 class="section-title">Sound Design</h2>
+            <div class="video-grid">
+                <div class="video-item">
+                    <p class="video-label">Redesign: Resident Evil 4</p>
+                    <div class="video-responsive">
+                        <!-- Placeholder YouTube video. Replace "dK1u5K3E6n8" with your actual video ID. -->
+                        <iframe src="https://youtu.be/StkJayINnnc" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <p class="video-label">Redesign: Warhammer 40K: Space Marine 2</p>
+                    <div class="video-responsive">
+                        <!-- Placeholder YouTube video. Replace "vQo1688T6tU" with your actual video ID. -->
+                        <iframe src="https://youtu.be/qnR_3ybsohI" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <p class="video-label">Intern Sound Designer: Second Extinction</p>
+                    <div class="video-responsive">
+                        <!-- Placeholder YouTube video. Replace "p984d72Wv24" with your actual video ID. -->
+                        <iframe src="https://youtu.be/GCncICcAJ94" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="separator">
+
+        <section class="section-container technical-sound-design">
+            <h2 class="section-title">Technical Sound Design</h2>
+            <div class="video-grid two-column">
+                <div class="video-item">
+                    <p class="video-label">Weapon Sounds in Acoustic Environments</p>
+                    <div class="video-responsive">
+                        <!-- Placeholder YouTube video. Replace "h0j3M7n7j7A" with your actual video ID. -->
+                        <iframe src="https://youtu.be/iQuFx1N2BjY" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <p class="video-label">Dynamic Destruction Sound Implementation</p>
+                    <div class="video-responsive">
+                        <!-- Placeholder YouTube video. Replace "k9H7g6d5f4c" with your actual video ID. -->
+                        <iframe src="https://youtu.be/mRGhZ6aebpA" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+</html>
